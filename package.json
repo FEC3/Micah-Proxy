@@ -1,0 +1,25 @@
+{
+  "name": "options-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "i": "node ./modules/images-service/server/index.js",
+    "o": "node ./modules/options-service/server/server.js",
+    "r": "node ./modules/reviews-service/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC3/options-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC3/options-proxy/issues"
+  },
+  "homepage": "https://github.com/FEC3/options-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
