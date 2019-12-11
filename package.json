@@ -6,7 +6,8 @@
   "scripts": {
     "i": "node ./modules/images-service/server/index.js",
     "o": "node ./modules/options-service/server/server.js",
-    "r": "node ./modules/reviews-service/server/index.js"
+    "r": "node ./modules/reviews-service/server/index.js",
+    "proxy": "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
