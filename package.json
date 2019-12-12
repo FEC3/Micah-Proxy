@@ -4,9 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "i": "node ./modules/images-service/server/index.js",
-    "o": "node ./modules/options-service/server/server.js",
-    "r": "node ./modules/reviews-service/server/index.js",
     "proxy": "nodemon ./server.js"
   },
   "repository": {
@@ -21,6 +18,7 @@
   },
   "homepage": "https://github.com/FEC3/options-proxy#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }
